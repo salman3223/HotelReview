@@ -1,12 +1,18 @@
 <html>
 <h1>Tip  calculator</h1>
+<h2>welcome  <span id ="r"></span></h2>
+<script>
+document.getElementById("r").innerHTML=localStorage.getItem("textvalue");
+</script>
 
-<br><br><br>
 <style> 
-
 h1 
 {
   text-align: center;
+}
+h2
+{
+text-align: center;
 }
 
 }
