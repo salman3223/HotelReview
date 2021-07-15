@@ -1,0 +1,15 @@
+<html>
+<script>
+function a()
+{
+var name = document.getElementById("txt").value;
+localStorage.setItem("textvalue",name);
+return false;
+}
+</script>
+<form name="myForm" action="2.html" method="post">
+		    <h1>Forget password</h1><br><br>
+		    <input type="text"  id="txt" />
+			<input type="submit"   value="click me" onclick="a();"/>
+			</form>
+</html>

@@ -1,0 +1,78 @@
+﻿<html>
+<div id="container">
+<script>
+function validateForm() 
+{
+ var x = document.forms["myForm"]["fname"].value;
+ var n = x.includes("vashi");
+ if (n == 1)
+ {
+ window.open('file:///C:/Users/OM/Desktop/html/ip/ip/vashi.html');
+ return false;
+ }
+ var n = x.includes("kurla");
+ if (n == 1)
+ {
+ window.open('file:///C:/Users/OM/Desktop/html/ip/ip/kurla.html');
+ return false;
+ }
+var n = x.includes("thane");
+ if (n == 1)
+ {
+ window.open('file:///C:/Users/OM/Desktop/html/ip/ip/Thane.html');
+ return false;
+ }
+}
+
+</script>
+<h1>Tip Calculator</h1>  <!h1 is called as header>
+<h1>Location<h1>
+<form name="myForm" action="/action_page.php"
+onsubmit="return validateForm()" method="post">
+Manual <input id="loc" type="text"placeholder="Enter your location" name="fname"><! input id is for forms where type is number,text etc,placeholder is for text to set bydefault,textfield>
+<input type="submit" value="Submit">
+</form>
+
+<h1>Preference</h1>
+Veg<input type="radio" value="Veg">
+Non Veg<input type="radio" value="Non Veg">
+<h1>Hotel category</h1>
+<select>
+  <option value="Fine Dining">Fine Dining</option>
+  <option value="Casual Dining">Casual Dining</option>
+  <option value="Contemporary Casual">Contemporary Casual</option>
+  <option value="Fast Casual">Fast Casual</option>
+  <option value="Cafe">Cafe</option>
+  <option value="Buffet">Buffet</option>
+  <option value="Concession Stands">Concession Stands</option>
+  <option value="Pop-Up Restaurant">Pop-Up Restaurant</option>
+  <option value="Ghost Restaurant">Ghost Restaurant</option>
+  <option value="Fast Food">Fast Food</option>
+</select>
+<br><br><input type="submit" value="submit">
+</form>
+</div>
+</html>
+<style> /*style is used for css*/
+body 
+{
+ background-color:#8E0E00
+ font-family: "jokerman";
+ text-align: center;
+ background-image: linear-gradient(#2E2E00,grey);
+}
+#container /* # is selector , here style is applied to id_name(container)*/
+{              
+ 
+  height: 525px;  /* px is for pixel*/
+  width: 460px;
+  margin: 100px auto;
+  
+  /*margin: 100px auto; auto - the browser calculates the       margin*/
+  background-color : white;
+  box-shadow: 1 2 3px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+}
+</style> 

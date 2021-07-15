@@ -1,0 +1,112 @@
+<html>
+<h1>Thane</h1>
+<style> 
+h1 
+{
+  text-align: center;
+}
+}
+</style>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style2.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class ="container">
+<h1>Harbour O' 4</h1>
+<form>
+<img src="thane1.jpg" style="width:38%;" width="500px" height="400px"  >
+<p1>
+This spacious lounge bar with a harbour theme offers multiple seating options and exudes a casual vibe. The bar at one end, with frenetic activity, is hard to miss. Popular among the millennials, it is the perfect spot for party revellers or those wanting to hang out with friends. The menu is exhaustive and one can look forward to American, Pan Asian and North Indian fare; abundant vegetarians options too. The 'Multani Mushrooms', 'Mutton Boti Kabab', 'Murg Sula Kabab' are a great way to start.<br><br>
+Hours: Opens 12PM Closes 1:30<br><br>
+Phone: 079000 50432<br><br>
+Order: swiggy.com, zomato.com
+</p1>
+<div id="div1">
+<button type=""class="button button1" formaction="tip.html">Tip Cal</button></input>
+</div>
+</form>
+
+<div class="kurla1">
+</div>
+<h1>The Tanjore Tiffin Room</h1>
+<form>
+<img src="tanjore.jpg" style="width:38%;" width="500px" height="400px">
+<p2>
+The Tanjore Tiffin Room is a great restaurant for a South Indian style meal. Usually, this kind of cuisine is popular in smaller no-frills restaurants but this is a great place to enjoy a meal with your family. It is a pretty space with an earthy colour scheme and lots of greenery along with potted plants hanging from the ceiling. While it gets clubbed as a South Indian restaurant, which it is, the food is more focused on Chettinad cuisine and dishes from Tamil Nadu. 'Chicken 65', 'Mini Gunpowder Idlis' and 'Yam Cutlets' are a great way to start your meal.<br><br>
+Address: Jewel Mahal Shopping Center, Seven Bunglow, Ratan Kunj, Versova, Andheri West, Mumbai, Maharashtra 400061
+Hours: 12 PM Open Closes 1AM<br><br>
+Phone: 098200 50591<br><br>
+Reservations: zomato.com<br><br>
+</p2>
+<div id="div1">
+<button type="Submit" class="button button2" formaction="pag2.html">Tip Cal</button></input>
+</div>
+</form>
+<div class ="kurla2">
+</div>
+<h1>Urban Tadka</h1>
+<form>
+<div id="div1">
+<button type="Submit" class="button button3" formaction="form.html">Tip Cal</button></input>
+</div>
+<img src="urban.jpg" style="width:38%;" width="500px" height="400px">
+<p3>
+Great place to enjoy the game of nations screening  live. Chef recommendation Non-Veg starters are superbly delicious. Good ambience , prompt service and great quality food made it a perfect place to hang out with buddies and have quality fun time.
+Address: Unit S - 46, LBS Rd, Kamani, Kurla West, Kurla, Mumbai, Maharashtra 400070<br><br>
+Hours: 
+Open 11 AM Close 12AM<br><br>
+Phone: 070451 21307<br><br>
+Order: swiggy.com
+</p3>
+</form>
+</div>
+<div class ="kurla3">
+</div>
+<h1>Barbeque Nation</h1>
+<form>
+<img src="bbq.jpg" style="width:38%;" width="500px" height="400px">
+<p4>
+Bustling with people - both staff as well as diners, this place epitomises frenetic activity from the moment you enter. With basic simple decor this place offers 2 seating areas- indoors and outdoors. One of the few restaurants which offer only a buffet for both lunch and dinner, throughout the week albeit with new dishes daily, the pricing differs on weekdays and weekends.
+Located in: Ak Housing<br><br>
+Address: 2nd Floor, Phoenix Paragaon Plaza, LBS Rd, Kurla, Mumbai, Maharashtra 400070<br><br>
+Hours: Opens: 8AM Closes: 12PM<br><br>
+Phone: 1800 108 6060
+</p4>	
+<div id="div1">
+<button type="Submit" class="button button4" formaction="form.html">Tip Cal</button></input>
+</div>
+</form>
+</div>
+<div class ="kurla4">
+</div>
+<h1>Masala Library</h1>
+<img src="masala.jpg"  style="width:38%;" width="500px" height="400px">
+<p5>
+Imaginative, upmarket Indian fare and clever cocktails presented in a fashionable environment.<br><br>
+Address: Ground Floor, First International Financial Centre, BKC Rd, G Block, Opposite Sofitel Hotel, Bandra East, Mumbai, Maharashtra 400050<br><br>
+Hours: Opens 12PM Closes 11:30Pm<br><br>
+Reservations: zomato.com, eazydiner.com<br><br>
+Phone: 084529 00900
+</p5>
+<div id="div1">
+<button type="Submit" class="button button5" formaction="form.html">Tip Cal</button></input> 
+</div>
+</form>
+</div>
+<div>
+<h1></h1>
+</div>
+<div class="kurla5">
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+for(var i=1; i<=2000; i++)
+{
+$('.ho').append('<div class="bb"></div>');
+}
+</script>
+</div>
+</body>
+</html>

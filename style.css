@@ -1,0 +1,138 @@
+﻿.container{
+ max-width: 1500px;
+ margin: 0 auto;
+ background: #f2f1f9;
+ font-size: 14px;
+ padding: 5px;
+}
+
+
+body
+{
+
+margin:0;
+padding:0;
+
+}
+#div1
+{
+padding-top:320;
+float:right;
+width:140px;
+
+}
+section
+{
+height:100vh;
+background:url("wa.jpg");no-repeat center;
+overflow:hidden;
+background-size: cover;
+}
+
+
+.para{
+max-width: 2110px;
+ margin: 0 auto;
+ background: #f2f1f9;
+ font-size: 14px;
+ padding: 5px;
+background-image: url("a.jpg"); no-repeat center; 
+background-size: contain;
+background-attachment: fixed;
+background-size: 100% 100%;
+height:500px;
+}
+.para1{
+
+background-attachment: fixed;
+height:500px;
+}
+
+#particles-js
+{
+height:500px;
+background: #000000;
+}
+.para2{
+background-image: url("c.jpg"); no-repeat center;
+background-size: contain;
+background-attachment: fixed;
+background-size: 100% 100%;
+height:500px;
+}
+.para3{
+background-image: url("p1.jpg"); no-repeat center; 
+background-size: cover;
+background-attachment: fixed;
+height:500px;
+}
+.para4{
+background-image: url("cafe1.jpg"); no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+background-size: 100% 100%;
+height:500px;
+}
+
+.button {
+  background-color: #2aAF20; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+ 
+}
+
+.ho 
+{
+width:100%;
+height:500px;
+overflow:hidden;
+background: #1B1B1B;;
+}
+.ho .bb
+{
+ width:20px;
+ height:20px; 
+ float:left;
+ background:transperent;
+ box-sizing:border-box;
+ transition:1s ease-in-out;
+}
+.ho .bb:hover
+{
+background: #FF11FF;
+transition:0s ease-in-out;
+}
+p1,p2,p3,p4,p5
+{
+ position: absolute;
+  padding:20px;
+  font-size:20px;
+}
+@media (max-width: 800px)/*med*/
+{
+body,.container,.ho,p1,p2,p3,p4,p5,.button
+{
+font-size:15px;
+padding: 13px 25px;
+}
+}
+@media (max-width: 600px)/*small*/
+{
+body,.container,.ho,p1,p2,p3,p4,p5,.button
+{
+font-size:11px;
+padding: 10px 21px;
+}
+}
+
+
+
+
+

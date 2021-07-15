@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    
+    <title>Video Background</title>
+</head>
+
+<body>
+
+    <div class="section">
+
+        
+		<div class="section1">
+		<form name="myForm" action="connectf.php" method="post">
+		<h1>Name</h1>
+		<input id="loc" type="text" placeholder="Enter your name " align="center" name="fname"></input><br><br><br>
+		<h1>Id</h1>
+		<input id="loc" type="text"placeholder="Enter your Id " name="username" align="center" required><br><br><br>
+		<h1>Password</h1>
+		<input id="loc" type="text"placeholder="Enter your Password  " name="password" align="center" required><br><br><br>
+		<input type="submit" value="Submit">
+		</form>
+		</div>
+        <div class="video-container">
+            <div class="color-overlay"></div>
+            <video autoplay loop muted>
+                <source src="D:\2.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+    <div style="height:400px;width:100%">
+        
+    </div>
+
+</body>
+</html>
+<style>
+.section {
+
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+  ext-align: center;
+}
+
+.section1
+{
+  text-align: center;
+  font-size: 19px;
+  padding: 80px;
+  font-family: "jokerman";
+  z-index: 1;
+  opacity: 0.5;
+  height: 225px;  /* px is for pixel*/
+  width: 360px;
+  margin: 100px auto; /*auto - the browser calculates the margin*/
+  background-color : white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+</style>

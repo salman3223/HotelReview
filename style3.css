@@ -1,0 +1,60 @@
+<style>
+.section {
+
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+  ext-align: center;
+}
+
+.section1
+{
+  	
+  text-align: center;
+  font-size: 19px;
+  padding: 70px;
+ 
+  z-index: 1;
+  opacity: 0.5;
+  height: 425px;  /* px is for pixel*/
+  width: 270px;
+  margin: 100px auto; /*auto - the browser calculates the margin*/
+  background-color : white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  
+}
+
+.video-container {
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-left: auto;
+    margin-right: auto;
+    display: block
+   
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+   margin: 0 auto; 
+  width: 400px;
+  height: 100vh;
+  opacity: 0.5;
+  margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+</style>
